@@ -40,7 +40,7 @@ group :development do
   gem 'netrc'
   gem 'prettybacon'
   gem 'typhoeus'
-  gem 'webmock'
+  gem 'webmock', '>= 3.15.1'
 
   gem 'bigdecimal', '~> 3.0'
   gem 'public_suffix'
@@ -59,7 +59,7 @@ group :development do
 
   gem 'octokit', '~> 4.18.0'
 
-  gem 'danger', '~> 8.5', '>= 8.5.0'
+  gem 'danger', '~> 8.6', '>= 8.6.0'
 end
 
 group :debugging do
